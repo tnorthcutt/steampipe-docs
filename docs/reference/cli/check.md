@@ -108,6 +108,11 @@ steampipe check [item,item,...] [flags]
 | `nunit3` | Results in [nunit3](https://docs.nunit.org/articles/nunit/technical-notes/usage/Test-Result-XML-Format.html) xml format.
 | `text` | Full text based output with details and summary.  This is the default console output format.
 
+### Exit Code
+
+The exit code of the `steampipe check` command is the number of results that are in alarm status.
+
+
 ### Examples
 Run all  controls:
 ```bash
